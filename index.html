@@ -1,0 +1,229 @@
+<!DOCTYPE html> <html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+          
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+  <style>/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    padding-bottom: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+.container-narrow>hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p+h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+        border: solid;
+        border-color: black;
+    }
+}
+
+.header button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 13px;
+}
+
+.avatar {
+    height: 150px;
+    border-radius: 50%;
+    border: solid red 2px;
+}
+
+.modal-body p {
+    font-size: 12px;
+    font-family: Arial;
+    margin-left: 12px;
+    margin-top: 7px;
+}</style></head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        
+        <!-- Button trigger modal 1-->
+        <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#exampleModalCenter">
+          Contact
+        </button>
+        
+        <!-- Modal 1-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Email: tbremner@aoiths.org</p>
+                <p>Cell-phone: +1 (347)-870-0526</p>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          <!-- Button trigger modal 2-->
+        <button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#exampleModalCenter2">
+          Skills
+        </button>
+        
+        <!-- Modal 2-->
+        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle2">Skills</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JQuery</li>
+                    <li>Word Documents</li>
+                    <li>Google Drive</li>
+                    <li>Problem Solving</li>
+                    <li>Critical Thinking</li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <h3 class="text-muted">Terrence's Portfolio</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Terrence Bremner</h1>
+        <p class="lead">I am a senior student at The Academy of Innovative Technology studying web development. I am hardworking and I believe in my ability to overcome obstacles in order to complete a given objective.</p>
+        
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <a href="https://terrencethepro.github.io/Character-quiz-1/" target="_blank"><h4>Character Guesser</h4></a>
+          <p>I used inputs and compound conditionals to guess a specific character.</p>
+          
+          <a href="https://terrencethepro.github.io/nameGenerator/" target="_blank"><h4>Random Name Generator</h4></a>
+          <p>I created a website that generates random gamertags. This site was built using switch statements and native javascript.</p>
+          
+        </div>
+
+        <div class="col-lg-6">
+
+          <a href="https://terrencethepro.github.io/evilCharacter/" target="_blank"><h4>Evil Fictional Character</h4></a>
+          <p>I created a fansite of my favorite evil fictional character using HTML and CSS.</p>
+          
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>© Terrence Bremner 2020</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+</body></html>
